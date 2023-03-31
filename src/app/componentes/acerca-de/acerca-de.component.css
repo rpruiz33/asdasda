@@ -37,18 +37,19 @@ div {
     }
 }
 
-@media(min-width: 330px){
+@media(min-width: 292px){
   #fotodeperfil{
     width: auto;
     height: 80px;
-    top: 574px;
+    top: 540px;
 }
 }
-@media(min-width: 488px){
+@media(min-width: 500px){
   #fotodeperfil{
-    width: auto;
+    width: 21%;
     height: 103px;
-    top: 476px;
+    top: 417px;
+
 }
 }
 @media (min-width :1024px){
