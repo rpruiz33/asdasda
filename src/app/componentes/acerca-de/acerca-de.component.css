@@ -8,12 +8,18 @@ div {
     background-color:#9fa6b3;
     box-shadow: 3px 3px 3px grey ;
 }
+#fotodeperfil{
+  width: 15%;
+  height: 220px;
+  top: 405px;
+}
 /* etiqueta nombre*/
 /*estilo de la foto de perfil */
 @media (min-width :576px){
+
     #fotodeperfil{
         position: absolute;
-        width: 15%;
+        width:70%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey ;
         left: 3%;
@@ -27,8 +33,31 @@ div {
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey ;
         left: 6%;
-        top: 595px;
+        top: 932px;
     }
+}
+
+@media(min-width: 330px){
+  #fotodeperfil{
+    width: auto;
+    height: 80px;
+    top: 574px;
+}
+}
+@media(min-width: 488px){
+  #fotodeperfil{
+    width: auto;
+    height: 103px;
+    top: 476px;
+}
+}
+@media (min-width :1024px){
+  #fotodeperfil{
+    width: 15%;
+    height: 206px;
+    top: 705px;
+}
+
 }
 #nombre1{
     font-size: larger;
