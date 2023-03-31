@@ -108,7 +108,7 @@ p{
     align-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    font-size: 39px;
+    font-size: 38px;
   }
 }
 @media(min-width:1024px){
@@ -124,6 +124,6 @@ p{
     align-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    font-size: 348x;
+    font-size: 38px;
   }
 }
